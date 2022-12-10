@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/ServiceInventoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/ServiceOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/model/OrderLineItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-order/src/test/java/com/alexn/serviceorder/ServiceOrderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/ServiceProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/java/com/alexn/serviceproduct/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/test/java/com/alexn/serviceproduct/ServiceProductApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IdnWPOMXhL3qZgUuobyegkyxc9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/home/alexn/Документы/microservices-new-product/service-inventory",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "d5a5696564806b15dfcf7f4108c243e4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-inventory" />
+      <recent name="$PROJECT_DIR$/service-order" />
+      <recent name="$PROJECT_DIR$/service-product" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceOrderApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="service-inventory" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="service-inventory" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceInventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-inventory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexn.serviceinventory.ServiceInventoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexn.serviceorder.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexn.serviceproduct.ServiceProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceInventoryApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.ServiceProductApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="" />
+      <created>1670520362075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670520362075</updated>
+      <workItem from="1670520363251" duration="1891000" />
+      <workItem from="1670660672535" duration="3273000" />
+      <workItem from="1670673988197" duration="2867000" />
+      <workItem from="1670680315736" duration="2201000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
