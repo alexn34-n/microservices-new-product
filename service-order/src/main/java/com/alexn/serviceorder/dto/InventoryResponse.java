@@ -1,4 +1,4 @@
-package com.alexn.serviceinventory.dto;
+package com.alexn.serviceorder.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
