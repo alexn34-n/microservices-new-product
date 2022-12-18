@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add security">
+    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add resilience-circuit-breaker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part5-security" />
+        <entry key="$PROJECT_DIR$" value="part6-circuit-breaker" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,7 +213,8 @@
       <workItem from="1671267088001" duration="4474000" />
       <workItem from="1671277370567" duration="1684000" />
       <workItem from="1671280760419" duration="5427000" />
-      <workItem from="1671361518672" duration="3071000" />
+      <workItem from="1671361518672" duration="3454000" />
+      <workItem from="1671371790302" duration="4087000" />
     </task>
     <task id="LOCAL-00001" summary="initial-setup">
       <created>1670682756422</created>
@@ -245,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671282118894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add resilience-circuit-breaker">
+      <created>1671365123360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671365123360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +292,7 @@
     <MESSAGE value="add service-discovery" />
     <MESSAGE value="add api-gateway" />
     <MESSAGE value="add security" />
-    <option name="LAST_COMMIT_MESSAGE" value="add security" />
+    <MESSAGE value="add resilience-circuit-breaker" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resilience-circuit-breaker" />
   </component>
 </project>
