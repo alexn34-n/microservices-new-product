@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add api-gateway">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/alexn/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/alexn/discoveryserver/config/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add security">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.property" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/alexn/serviceinventory/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/java/com/alexn/serviceorder/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part4-api-gateway" />
+        <entry key="$PROJECT_DIR$" value="part5-security" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,7 +207,8 @@
       <workItem from="1671190749469" duration="2296000" />
       <workItem from="1671267088001" duration="4474000" />
       <workItem from="1671277370567" duration="1684000" />
-      <workItem from="1671280760419" duration="1059000" />
+      <workItem from="1671280760419" duration="5427000" />
+      <workItem from="1671361518672" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="initial-setup">
       <created>1670682756422</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671193966241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add security">
+      <created>1671282118894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671282118894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +278,7 @@
     <MESSAGE value="add inter-service" />
     <MESSAGE value="add service-discovery" />
     <MESSAGE value="add api-gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api-gateway" />
+    <MESSAGE value="add security" />
+    <option name="LAST_COMMIT_MESSAGE" value="add security" />
   </component>
 </project>
