@@ -4,19 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add kafka">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realms/realms-export.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-order/src/main/resources/application-docker.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-order/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-order/src/main/resources/data.sql" afterDir="false" />
+    <list default="true" id="e6b4dcf1-0c68-46fd-8cd9-1e3f912b7d32" name="Changes" comment="add dockerize the application">
+      <change afterPath="$PROJECT_DIR$/Grafana_Dashboard.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promethrus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-product/src/main/resources/application-docker.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-notification/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-product/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part8-kafka" />
+        <entry key="$PROJECT_DIR$" value="part9-dockerize" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,32 +75,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alexn/Документы/microservices-new-product/service-inventory&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bd7a6a65b32f70a53b26800447c612c9&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/home/alexn/Документы/microservices-new-product/service-inventory",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "ba96dfa391f2d10ac363e12dba309c4f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -244,7 +250,8 @@
       <workItem from="1671557268672" duration="2541000" />
       <workItem from="1671626788362" duration="1307000" />
       <workItem from="1671632093452" duration="4718000" />
-      <workItem from="1671639178439" duration="1515000" />
+      <workItem from="1671639178439" duration="1668000" />
+      <workItem from="1671710454221" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="initial-setup">
       <created>1670682756422</created>
@@ -302,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671559775351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add dockerize the application">
+      <created>1671640828464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671640828464</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +353,7 @@
     <MESSAGE value="add resilience-circuit-breaker" />
     <MESSAGE value="add distributed tracing" />
     <MESSAGE value="add kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="add kafka" />
+    <MESSAGE value="add dockerize the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dockerize the application" />
   </component>
 </project>
